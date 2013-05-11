@@ -1,0 +1,41 @@
+require 'lib/motion/project' is deprecated, please require 'lib/motion/project/template/ios' instead
+[1m     Build[0m ./build/iPhoneSimulator-6.1-Development
+[1m  Simulate[0m ./build/iPhoneSimulator-6.1-Development/goldensections_spec.app
+rake aborted!
+Command failed with status (4): [DYLD_FRAMEWORK_PATH="/Applications/Xcode.a...]
+/Library/Ruby/Gems/1.8/gems/rake-10.0.4/lib/rake/file_utils.rb:53:in `create_shell_runner'
+/Library/Ruby/Gems/1.8/gems/rake-10.0.4/lib/rake/file_utils.rb:45:in `call'
+/Library/Ruby/Gems/1.8/gems/rake-10.0.4/lib/rake/file_utils.rb:45:in `sh'
+/Library/Ruby/Gems/1.8/gems/rake-10.0.4/lib/rake/file_utils_ext.rb:37:in `sh'
+/Library/RubyMotion/lib/motion/project/template/ios.rb:93
+/Library/Ruby/Gems/1.8/gems/rake-10.0.4/lib/rake/task.rb:246:in `call'
+/Library/Ruby/Gems/1.8/gems/rake-10.0.4/lib/rake/task.rb:246:in `execute'
+/Library/Ruby/Gems/1.8/gems/rake-10.0.4/lib/rake/task.rb:241:in `each'
+/Library/Ruby/Gems/1.8/gems/rake-10.0.4/lib/rake/task.rb:241:in `execute'
+/Library/Ruby/Gems/1.8/gems/rake-10.0.4/lib/rake/task.rb:184:in `invoke_with_call_chain'
+/Library/Ruby/Gems/1.8/gems/rake-10.0.4/lib/rake/task.rb:177:in `invoke_with_call_chain'
+/Library/Ruby/Gems/1.8/gems/rake-10.0.4/lib/rake/task.rb:170:in `invoke'
+/Library/RubyMotion/lib/motion/project/template/ios.rb:117
+/Library/Ruby/Gems/1.8/gems/rake-10.0.4/lib/rake/task.rb:246:in `call'
+/Library/Ruby/Gems/1.8/gems/rake-10.0.4/lib/rake/task.rb:246:in `execute'
+/Library/Ruby/Gems/1.8/gems/rake-10.0.4/lib/rake/task.rb:241:in `each'
+/Library/Ruby/Gems/1.8/gems/rake-10.0.4/lib/rake/task.rb:241:in `execute'
+/Library/Ruby/Gems/1.8/gems/rake-10.0.4/lib/rake/task.rb:184:in `invoke_with_call_chain'
+/Library/Ruby/Gems/1.8/gems/rake-10.0.4/lib/rake/task.rb:177:in `invoke_with_call_chain'
+/Library/Ruby/Gems/1.8/gems/rake-10.0.4/lib/rake/task.rb:205:in `invoke_prerequisites'
+/Library/Ruby/Gems/1.8/gems/rake-10.0.4/lib/rake/task.rb:203:in `each'
+/Library/Ruby/Gems/1.8/gems/rake-10.0.4/lib/rake/task.rb:203:in `invoke_prerequisites'
+/Library/Ruby/Gems/1.8/gems/rake-10.0.4/lib/rake/task.rb:183:in `invoke_with_call_chain'
+/Library/Ruby/Gems/1.8/gems/rake-10.0.4/lib/rake/task.rb:177:in `invoke_with_call_chain'
+/Library/Ruby/Gems/1.8/gems/rake-10.0.4/lib/rake/task.rb:170:in `invoke'
+/Library/Ruby/Gems/1.8/gems/rake-10.0.4/lib/rake/application.rb:143:in `invoke_task'
+/Library/Ruby/Gems/1.8/gems/rake-10.0.4/lib/rake/application.rb:101:in `top_level'
+/Library/Ruby/Gems/1.8/gems/rake-10.0.4/lib/rake/application.rb:101:in `each'
+/Library/Ruby/Gems/1.8/gems/rake-10.0.4/lib/rake/application.rb:101:in `top_level'
+/Library/Ruby/Gems/1.8/gems/rake-10.0.4/lib/rake/application.rb:110:in `run_with_threads'
+/Library/Ruby/Gems/1.8/gems/rake-10.0.4/lib/rake/application.rb:95:in `top_level'
+/Library/Ruby/Gems/1.8/gems/rake-10.0.4/lib/rake/application.rb:73:in `run'
+/Library/Ruby/Gems/1.8/gems/rake-10.0.4/lib/rake/application.rb:160:in `standard_exception_handling'
+/Library/Ruby/Gems/1.8/gems/rake-10.0.4/lib/rake/application.rb:70:in `run'
+Tasks: TOP => simulator
+(See full trace by running task with --trace)
