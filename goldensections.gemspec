@@ -4,12 +4,15 @@ VERSION = "1.0"
 Gem::Specification.new do |spec|
   spec.name          = "goldensections"
   spec.version       = VERSION
-  spec.authors       = [""]
-  spec.email         = [""]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
-  spec.homepage      = ""
-  spec.license       = ""
+  spec.authors       = ["Austin Seraphin"]
+  spec.email         = ["austin@austinseraphin.com"]
+  spec.description   = %q{Easily make views based on the golden section}
+  spec.summary       = %q{Welcome to Golden Sections, a RubyMotion gem for creating views based
+on the golden mean. I wrote this gem because using the golden mean
+looks naturally beautiful. Instead of guessing or picking round
+numbers, why not use something more appealing? Give your app the Midas}
+  spec.homepage      = "httpps://github.com/austinseraphin/goldensections"
+  spec.license       = "GPL"
 
   files = []
   files << 'README.md'

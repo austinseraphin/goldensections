@@ -1,4 +1,5 @@
-# goldensections
+Golden Sections
+https://github.com/austinseraphin/goldensections
 
 Welcome to Golden Sections, a RubyMotion gem for creating views based
 on the golden mean. I wrote this gem because using the golden mean
@@ -19,6 +20,8 @@ And then execute:
 Or install it yourself as:
 
     $ gem install goldensections
+
+This gem depends on Geomotion.
 
 ## Usage
 
